@@ -16,6 +16,7 @@ import br.edu.up.biblioteca.modelos.Livro;
 
 public class FileManager {
 
+    // Função para salvar os dados no arquivo
     public static void salvarDados(String dados, String arquivo) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(arquivo, true));
@@ -27,6 +28,7 @@ public class FileManager {
         }
     }
 
+    // Função que permite os funções a ler os arquivos
     public static List<String> carregarDados(String arquivo) {
         List<String> dados = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(arquivo))) {
@@ -128,18 +130,117 @@ public class FileManager {
         Scanner scanner = new Scanner(System.in);
 
         // Solicita o título do livro a ser encontrado
-        System.out.print("Digite o título do livro a ser procurado: ");
+        System.out.print("Digite o título do livro procurado: ");
         String procurar = scanner.nextLine();
 
         // Carrega a lista de livros do arquivo
         List<String> livros = FileManager.carregarDados("livros.txt");
 
-        for (int i = 0; i < livros.size(); i++) {
-            if (livros.get(i).contains(procurar)) {
-                System.out.println("O livro: "+ procurar + " esta disponivel");
+        boolean encontrado = false;
+
+        for (String livro : livros) {
+            if (livro.contains(procurar)) {
+                System.out.println("Livro encontrado:");
+                String[] partes = livro.split(",");
+                System.out.println("- " + partes[0].trim());
+                for (int i = 1; i < partes.length; i++) {
+                    System.out.println("- " + partes[i].trim());
+                }
+                encontrado = true;
             }
         }
 
+        if (!encontrado) {
+            System.out.println("Livro não encontrado.");
+        }
     }
 
+    public static void buscarAutores() {
+        @SuppressWarnings("resource")
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita o autor a ser encontrado
+        System.out.print("Digite o autor procurado: ");
+        String procurar = scanner.nextLine();
+
+        // Carrega a lista de livros do arquivo
+        List<String> livros = FileManager.carregarDados("livros.txt");
+
+        boolean encontrado = false;
+
+        for (String livro : livros) {
+            if (livro.contains(procurar)) {
+                System.out.println("Autor encontrado:");
+                String[] partes = livro.split(",");
+                System.out.println("- " + partes[0].trim());
+                for (int i = 1; i < partes.length; i++) {
+                    System.out.println("- " + partes[i].trim());
+                }
+                encontrado = true;
+            }
+        }
+
+        if (!encontrado) {
+            System.out.println("Autor não encontrado.");
+        }
     }
+    public static void buscarGenero() {
+        @SuppressWarnings("resource")
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita o genero a ser encontrado
+        System.out.print("Digite o genero procurado: ");
+        String procurar = scanner.nextLine();
+
+        // Carrega a lista de livros do arquivo
+        List<String> livros = FileManager.carregarDados("livros.txt");
+
+        boolean encontrado = false;
+
+        for (String livro : livros) {
+            if (livro.contains(procurar)) {
+                System.out.println("Genero encontrado:");
+                String[] partes = livro.split(",");
+                System.out.println("- " + partes[0].trim());
+                for (int i = 1; i < partes.length; i++) {
+                    System.out.println("- " + partes[i].trim());
+                }
+                encontrado = true;
+            }
+        }
+
+        if (!encontrado) {
+            System.out.println("Genero não encontrado.");
+        }
+    }
+    public static void buscarEditora() {
+        @SuppressWarnings("resource")
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita a editora a ser encontrada
+        System.out.print("Digite a editora procurada: ");
+        String procurar = scanner.nextLine();
+
+        // Carrega a lista de livros do arquivo
+        List<String> livros = FileManager.carregarDados("livros.txt");
+
+        boolean encontrado = false;
+
+        for (String livro : livros) {
+            if (livro.contains(procurar)) {
+                System.out.println("Autor encontrado:");
+                String[] partes = livro.split(",");
+                System.out.println("- " + partes[0].trim());
+                for (int i = 1; i < partes.length; i++) {
+                    System.out.println("- " + partes[i].trim());
+                }
+                encontrado = true;
+            }
+        }
+
+        if (!encontrado) {
+            System.out.println("Editora não encontrada.");
+        }
+    }
+
+}

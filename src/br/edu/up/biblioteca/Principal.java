@@ -21,6 +21,9 @@ public class Principal {
             System.out.println("2 - Remover livro");
             System.out.println("3 - Listar todos os dados");
             System.out.println("4 - Procurar livro por título");
+            System.out.println("5 - Procurar livro por Autor");
+            System.out.println("6 - Procurar livro por Genero");
+            System.out.println("7 - Procurar livro por Editora");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -40,7 +43,6 @@ public class Principal {
                     case 3:
                         // Organiza os dados para ficarem em ordem ascendente (Pelo Titulo)
                         Collections.sort(dados);
-
                         // Apresenta os dados
                         for (String livro : dados) {
                             System.out.println(livro);
@@ -48,6 +50,18 @@ public class Principal {
 
                         break;
                     case 4:
+                        FileManager.buscarTitulos();
+                        
+                        break;
+                    case 5:
+                        FileManager.buscarAutores();
+
+                        break;
+                    case 6:
+                        FileManager.buscarTitulos();
+
+                        break;
+                    case 7:
                         FileManager.buscarTitulos();
 
                         break;
@@ -60,6 +74,7 @@ public class Principal {
                         break;
                 }
             } catch (InputMismatchException e) {
+                // Não faço ideia quando q isso vai aparecer mas ta ai
                 System.out.println("Opção inválida! Por favor, insira um número correspondente à opção desejada.");
                 scanner.nextLine(); // Limpar o buffer do scanner
             }
