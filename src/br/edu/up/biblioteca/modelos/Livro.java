@@ -48,4 +48,11 @@ public class Livro {
         this.editora = editora;
     }
 
+    @Override
+    public String toString() {
+        return "Livro [titulo=" + titulo + ", " + autor + ", " + genero + ", " + editora + "]";
+    }
+
+    
+
 }

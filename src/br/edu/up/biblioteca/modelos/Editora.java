@@ -18,4 +18,9 @@ public class Editora {
         this.nome = nome;
     }
 
+    @Override
+    public String toString() {
+        return "Editora [nome=" + nome + "]";
+    }
+
 }

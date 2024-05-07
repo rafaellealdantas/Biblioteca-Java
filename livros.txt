@@ -2,3 +2,9 @@ br.edu.up.biblioteca.modelos.Livro@7a81197d
 br.edu.up.biblioteca.modelos.Livro@2f92e0f4
 br.edu.up.biblioteca.modelos.Livro@7a81197d
 br.edu.up.biblioteca.modelos.Livro@2f92e0f4
+br.edu.up.biblioteca.modelos.Livro@7a81197d
+br.edu.up.biblioteca.modelos.Livro@2f92e0f4
+Livro [titulo=João e o pé de feijão, autor=Autor [nome=Maria], genero=Genero [nome=Fantasia], editora=Editora [nome=Editora 21]]
+Livro [titulo=Som de roer ouvido, autor=Autor [nome=Rodrigo], genero=Genero [nome=Marvel], editora=Editora [nome=Editora 44]]
+Livro [titulo=João e o pé de feijão, Autor [nome=Maria], Genero [nome=Fantasia], Editora [nome=Editora 21]]
+Livro [titulo=Som de roer ouvido, Autor [nome=Rodrigo], Genero [nome=Marvel], Editora [nome=Editora 44]]
