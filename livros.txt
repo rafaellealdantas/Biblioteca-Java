@@ -1,10 +1,12 @@
-br.edu.up.biblioteca.modelos.Livro@7a81197d
-br.edu.up.biblioteca.modelos.Livro@2f92e0f4
-br.edu.up.biblioteca.modelos.Livro@7a81197d
-br.edu.up.biblioteca.modelos.Livro@2f92e0f4
-br.edu.up.biblioteca.modelos.Livro@7a81197d
-br.edu.up.biblioteca.modelos.Livro@2f92e0f4
-Livro [titulo=Jo√£o e o p√© de feij√£o, autor=Autor [nome=Maria], genero=Genero [nome=Fantasia], editora=Editora [nome=Editora 21]]
-Livro [titulo=Som de roer ouvido, autor=Autor [nome=Rodrigo], genero=Genero [nome=Marvel], editora=Editora [nome=Editora 44]]
-Livro [titulo=Jo√£o e o p√© de feij√£o, Autor [nome=Maria], Genero [nome=Fantasia], Editora [nome=Editora 21]]
-Livro [titulo=Som de roer ouvido, Autor [nome=Rodrigo], Genero [nome=Marvel], Editora [nome=Editora 44]]
+
+
+
+
+Livro: Jo„o e o pÈ de feij„o, Autor: Maria, GÍnero: Fantasia, Editora: Editora 21
+Livro: Som de roer ouvido, Autor: Rodrigo, GÍnero: Marvel, Editora: Editora 44
+Livro: Jo„o e o pÈ de feij„o, Autor: Maria, GÍnero: Fantasia, Editora: Editora 21
+Livro: Som de roer ouvido, Autor: Rodrigo, GÍnero: Marvel, Editora: Editora 44
+Livro: Jo„o e o pÈ de feij„o, Autor: Maria, GÍnero: Fantasia, Editora: Editora 21
+Livro: Som de roer ouvido, Autor: Rodrigo, GÍnero: Marvel, Editora: Editora 44
+Livro: Jo„o e o pÈ de feij„o, Autor: Maria, GÍnero: Fantasia, Editora: Editora 21
+Livro: Som de roer ouvido, Autor: Rodrigo, GÍnero: Marvel, Editora: Editora 44

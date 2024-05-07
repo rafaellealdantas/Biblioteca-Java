@@ -18,9 +18,4 @@ public class Autor {
         this.nome = nome;
     }
 
-    @Override
-    public String toString() {
-        return "Autor [nome=" + nome + "]";
-    }
-
 }

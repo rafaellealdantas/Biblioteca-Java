@@ -21,19 +21,20 @@ public class FileManager {
         }
     }
 
-    public static List<String> carregarDados(String arquivo) {
+    public static List<String> carregarDados(String arquivo){
         List<String> dados = new ArrayList<>();
         try {
             BufferedReader reader = new BufferedReader(new FileReader(arquivo));
             String linha;
-            while ((linha = reader.readLine()) != null) {
-                dados.add(linha);
-            }
-            reader.close();
-        } catch (IOException e) {
+        while ((linha = reader.readLine()) != null) {
+            dados.add(linha);
+        }
+            reader.close(); 
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
         return dados;
-
+    
     }
 }

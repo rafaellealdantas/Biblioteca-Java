@@ -47,12 +47,10 @@ public class Livro {
     public void setEditora(Editora editora) {
         this.editora = editora;
     }
-
     @Override
-    public String toString() {
-        return "Livro [titulo=" + titulo + ", " + autor + ", " + genero + ", " + editora + "]";
-    }
+public String toString() {
+    return "Livro: " + titulo + ", Autor: " + autor.getNome() + ", Gênero: " + genero.getNome() + ", Editora: " + editora.getNome();
+}
 
-    
 
 }
