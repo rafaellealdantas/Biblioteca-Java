@@ -52,5 +52,4 @@ public String toString() {
     return "Livro: " + titulo + ", Autor: " + autor.getNome() + ", Gênero: " + genero.getNome() + ", Editora: " + editora.getNome();
 }
 
-
 }
