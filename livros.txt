@@ -1,12 +1,4 @@
-
-
-
-
-Livro: João e o pé de feijão, Autor: Maria, Gênero: Fantasia, Editora: Editora 21
-Livro: Som de roer ouvido, Autor: Rodrigo, Gênero: Marvel, Editora: Editora 44
-Livro: João e o pé de feijão, Autor: Maria, Gênero: Fantasia, Editora: Editora 21
-Livro: Som de roer ouvido, Autor: Rodrigo, Gênero: Marvel, Editora: Editora 44
-Livro: João e o pé de feijão, Autor: Maria, Gênero: Fantasia, Editora: Editora 21
-Livro: Som de roer ouvido, Autor: Rodrigo, Gênero: Marvel, Editora: Editora 44
-Livro: João e o pé de feijão, Autor: Maria, Gênero: Fantasia, Editora: Editora 21
-Livro: Som de roer ouvido, Autor: Rodrigo, Gênero: Marvel, Editora: Editora 44
+Livro: JoÃ£o e o pÃ© de feijÃ£o, Autor: Maria, GÃªnero: Fantasia, Editora: Editora 21
+Livro: Som de roer ouvido, Autor: Rodrigo, GÃªnero: Marvel, Editora: Editora 44
+Livro: Abc, Autor: DSe, GÃªnero: VAS, Editora: TEe
+Livro: Bds, Autor: dwdwa, GÃªnero: hrhgb, Editora: ewds
