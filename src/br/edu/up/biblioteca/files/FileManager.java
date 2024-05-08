@@ -87,7 +87,7 @@ public class FileManager {
         Scanner scanner = new Scanner(System.in);
 
         // Solicita o título do livro a ser encontrado
-        System.out.print("Digite o título do livro a ser encontrado: ");
+        System.out.print("Digite o título do livro a ser apagado: ");
         String procurar = scanner.nextLine();
 
         // Carrega a lista de livros do arquivo
@@ -116,7 +116,7 @@ public class FileManager {
                     writer.newLine();
                 }
                 writer.close();
-                System.out.println("Livro encontrado com sucesso!");
+                System.out.println("Livro apagado com sucesso!");
             } catch (IOException e) {
                 e.printStackTrace();
             }

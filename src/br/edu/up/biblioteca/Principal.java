@@ -41,6 +41,7 @@ public class Principal {
 
                         break;
                     case 3:
+                        dados = FileManager.carregarDados("livros.txt");
                         // Organiza os dados para ficarem em ordem ascendente (Pelo Titulo)
                         Collections.sort(dados);
                         // Apresenta os dados
@@ -58,11 +59,11 @@ public class Principal {
 
                         break;
                     case 6:
-                        FileManager.buscarTitulos();
+                        FileManager.buscarGenero();
 
                         break;
                     case 7:
-                        FileManager.buscarTitulos();
+                        FileManager.buscarEditora();
 
                         break;
                     case 0:
@@ -73,8 +74,7 @@ public class Principal {
                         System.out.println("Opção inválida!");
                         break;
                 }
-            } catch (InputMismatchException e) {
-                // Não faço ideia quando q isso vai aparecer mas ta ai
+            } catch (InputMismatchException e) {                
                 System.out.println("Opção inválida! Por favor, insira um número correspondente à opção desejada.");
                 scanner.nextLine(); // Limpar o buffer do scanner
             }
